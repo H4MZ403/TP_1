@@ -1,0 +1,82 @@
+body{
+    font-family:  Arial, sans-serif, 'Courier New', Courier, monospace;
+}
+#professional_info{
+    float: right;
+    width: 50%;
+    height: 500px;
+    overflow: scroll;
+}
+#personal_coordinate{
+    float: left;
+    width: 50%;
+    background-color: #E8ECEF;
+}
+.bullet_title
+{
+    font-weight: bold;
+}
+.bullet_content{
+    color: rgb(58, 58, 58);
+}
+.bullet_date{
+    font-style: italic;
+    color: rgba(87, 85, 85, 65%);
+}
+.bullet_detail{
+    margin: 10px 0 10px 0;
+    color: blue;
+}
+.section_title
+{
+    padding: 5px;
+    margin: 0px;
+}
+ul
+{
+    margin: 0px;
+}
+li{
+    margin: 10px;
+    padding: 6px;
+}
+.experience
+{
+    margin-top: 700px;
+}
+#passions
+{
+    background-color: rgba(129, 198, 255, 0.199);
+    height: 20px;
+    width: 90%;
+    bottom: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+#linkedIn_profile
+{
+    float: right;
+    height: 20px;
+    width: 150px;
+    
+}
+a{
+    text-decoration: none;
+    color: #0077B7;
+    font-size: 14px;
+    box-sizing: content-box;
+    display: inline;
+    float: none;
+    line-height: normal;
+    position: static;
+    z-index: auto;
+}
+a:hover {
+    color: rgb(140, 0, 255);
+}
+a:active {
+    color: red;
+  }
