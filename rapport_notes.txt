@@ -1,0 +1,15 @@
+title: rapport
+introduction
+planning
+	* definition html, css
+	* a quoi ca sert un cv
+	* les questions d'annonce
+	* justification des techniques utlilises
+	* trucs
+	* code commente
+	* bibliographie
+		* support de cours
+		* mozilla (html/css)
+		* w3schools
+		* css-tricks (flexbox)
+	* realisation
