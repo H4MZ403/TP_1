@@ -1,9 +1,13 @@
 body{
     font-family:  Arial, sans-serif, 'Courier New', Courier, monospace;
+    width: 80%;
+    margin: 0 auto;
 }
 #main_content
 {
     margin-top: 10px;
+    width: 100%;
+    display: flex;
 }
 #profile
 {
@@ -11,19 +15,33 @@ body{
     justify-content: space-evenly;
     background-color: #A1EEFE;
 }
+#profile_img{
+    display: flex;
+}
 #professional_info{
     float: right;
-    width: 70%;
-    height: 340px;
+    width: 80%;
+    height: 450px;
     overflow-y: scroll;
-}
+    display: flex;
+    flex-direction: column;}
+
 #personal_coordinate{
     float: left;
     width: 20%;
-    height: 340px;
+    height: 100%;
     background-color: #E8ECEF;
-    padding: 8px 0 0 8px;
     border-radius: 8px;
+}
+#profile_holder{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pr_wrapper{
+padding-left: 10px;
+}
+.content_wrapper{
+    padding: 10px;
 }
 .bullet_title
 {
@@ -38,7 +56,7 @@ body{
 }
 .bullet_detail{
     margin: 10px 0 10px 0;
-    color: #ff0099;
+    color: #0073B1;
 }
 .section_title
 {
@@ -61,6 +79,7 @@ footer
 {
     height: 30px;
     width: 100%;
+    margin-top: 30px;
     display: flex;
 }
 #passions
@@ -79,15 +98,15 @@ footer
     width: 150px;
     align-items: center;
 }
-a{
+#linkedIn_profile a{
     text-decoration: none;
     color: #0077B7;
     font-size: 14px;
     margin-left: 5px;
 }
-a:hover {
+#linkedIn_profile a:hover {
     color: rgb(140, 0, 255);
 }
-a:active {
+#linkedIn_profile a:active {
     color: rgb(255, 82, 83);
-  }
+}
